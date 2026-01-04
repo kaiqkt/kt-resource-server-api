@@ -1,6 +1,6 @@
-package ${package}.application.config
+package com.kaiqkt.ktresourceserverapi.application.config
 
-import ${package}.domain.utils.MetricsUtils
+import com.kaiqkt.ktresourceserverapi.domain.utils.MetricsUtils
 import io.micrometer.core.instrument.MeterRegistry
 import org.springframework.context.annotation.Configuration
 

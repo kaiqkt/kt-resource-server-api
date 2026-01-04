@@ -1,4 +1,4 @@
-package ${package}.integration
+package com.kaiqkt.ktresourceserverapi.integration
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import io.restassured.RestAssured

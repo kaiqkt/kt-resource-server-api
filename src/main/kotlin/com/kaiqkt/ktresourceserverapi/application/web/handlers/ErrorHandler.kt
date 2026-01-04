@@ -1,9 +1,9 @@
-package ${package}.application.web.handlers
+package com.kaiqkt.ktresourceserverapi.application.web.handlers
 
-import ${package}.application.exceptions.InvalidRequestException
-import ${package}.application.web.responses.ErrorV1
-import ${package}.domain.exceptions.DomainException
-import ${package}.domain.exceptions.ErrorType
+import com.kaiqkt.ktresourceserverapi.application.exceptions.InvalidRequestException
+import com.kaiqkt.ktresourceserverapi.application.web.responses.ErrorV1
+import com.kaiqkt.ktresourceserverapi.domain.exceptions.DomainException
+import com.kaiqkt.ktresourceserverapi.domain.exceptions.ErrorType
 import jakarta.validation.ConstraintViolationException
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus
@@ -71,5 +71,4 @@ class ErrorHandler : ResponseEntityExceptionHandler() {
     }
 
     private fun getStatusCode(type: ErrorType): HttpStatus = HttpStatus.NOT_IMPLEMENTED
-
 }

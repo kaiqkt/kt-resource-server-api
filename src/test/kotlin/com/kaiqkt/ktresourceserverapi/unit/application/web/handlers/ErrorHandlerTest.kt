@@ -1,10 +1,10 @@
-package ${package}.unit.application.web.handlers
+package com.kaiqkt.ktresourceserverapi.unit.application.web.handlers
 
-import ${package}.application.exceptions.InvalidRequestException
-import ${package}.application.web.handlers.ErrorHandler
-import ${package}.application.web.responses.ErrorV1
-import ${package}.domain.exceptions.DomainException
-import ${package}.domain.exceptions.ErrorType
+import com.kaiqkt.ktresourceserverapi.application.exceptions.InvalidRequestException
+import com.kaiqkt.ktresourceserverapi.application.web.handlers.ErrorHandler
+import com.kaiqkt.ktresourceserverapi.application.web.responses.ErrorV1
+import com.kaiqkt.ktresourceserverapi.domain.exceptions.DomainException
+import com.kaiqkt.ktresourceserverapi.domain.exceptions.ErrorType
 import io.mockk.every
 import io.mockk.mockk
 import jakarta.validation.ConstraintViolation

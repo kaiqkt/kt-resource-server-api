@@ -1,4 +1,4 @@
-package ${package}.application.web.responses
+package com.kaiqkt.ktresourceserverapi.application.web.responses
 
 data class ErrorV1(
     val type: String,

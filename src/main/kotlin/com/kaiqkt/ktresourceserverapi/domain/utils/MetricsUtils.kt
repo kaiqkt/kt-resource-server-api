@@ -1,4 +1,4 @@
-package ${package}.domain.utils
+package com.kaiqkt.ktresourceserverapi.domain.utils
 
 import io.micrometer.core.instrument.MeterRegistry
 import io.micrometer.core.instrument.Timer
